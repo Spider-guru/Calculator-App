@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link
+			rel="stylesheet"
+			href="Calculator.css" />
+	</head>
+
+	<body>
+		<h3>Calculator Web App</h3>
+
+		<div id="container">
+			<input
+				title="input"
+				type="text"
+				id="display"
+				disabled />
+
+			<div class="keys">
+				<button
+					type="button"
+					id="k1"
+					onclick="display('1')">
+					1
+				</button>
+				<button
+					type="button"
+					id="k2"
+					onclick="display('2')">
+					2
+				</button>
+				<button
+					type="button"
+					id="k3"
+					onclick="display('3')">
+					3
+				</button>
+				<button
+					type="button"
+					id="k4"
+					onclick="display('4')">
+					4
+				</button>
+				<button
+					type="button"
+					id="k5"
+					onclick="display('5')">
+					5
+				</button>
+				<button
+					type="button"
+					id="k6"
+					onclick="display('6')">
+					6
+				</button>
+				<button
+					type="button"
+					id="k7"
+					onclick="display('7')">
+					7
+				</button>
+				<button
+					type="button"
+					id="k8"
+					onclick="display('8')">
+					8
+				</button>
+				<button
+					type="button"
+					id="k9"
+					onclick="display('9')">
+					9
+				</button>
+				<button
+					type="button"
+					id="k0"
+					onclick="display('0')">
+					0
+				</button>
+				<button
+					type="button"
+					id="kp"
+					onclick="display('+')">
+					+
+				</button>
+				<button
+					type="button"
+					id="kmi"
+					onclick="display('-')">
+					-
+				</button>
+				<button
+					type="button"
+					id="kd"
+					onclick="display('/')">
+					&divide;
+				</button>
+				<button
+					type="button"
+					id="kmu"
+					onclick="display('*')">
+					&times;
+				</button>
+				<button
+					type="button"
+					id="kdot"
+					onclick="display('.')">
+					.
+				</button>
+				<button
+					type="button"
+					id="k00"
+					onclick="display('00')">
+					00
+				</button>
+				<button
+					type="button"
+					id="ke"
+					onclick="solve()">
+					=
+				</button>
+
+				<button
+					type="button"
+					id="kc"
+					onclick="clean()">
+					C
+				</button>
+			</div>
+		</div>
+
+		<script src="Calculator.js"></script>
+	</body>
+</html>
